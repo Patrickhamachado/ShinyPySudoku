@@ -1,6 +1,9 @@
 
 # Enjoy playing Sudoku in Shiny!
-[Connect Shiny Cloud App](https://patrickhamachado-ShinyPySudoku.share.connect.posit.cloud)
+
+- [Connect Cloud App](https://patrickhamachado-ShinyPySudoku.share.connect.posit.cloud)
+- Locally in your web browser, thanks to [GitHub Pages](https://Patrickhamachado.github.io/ShinyPySudoku/) and Shinylive
+
 
 ### Instructions:
 
@@ -16,3 +19,5 @@
 
 4. Enjoy!
 
+<!-- Ejecutar localmente en el navegador:  -->
+<!-- python -m http.server --directory docs --bind localhost 8008 -->
