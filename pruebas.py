@@ -67,4 +67,24 @@ if 1:
     print("Si")
 else:
     print("No")
-    
+
+
+# ---- Clase Sudoku ------
+from sudoku_class import Sudoku
+
+sudoku = Sudoku()
+sudoku.iniciar(dificultad=0.5)
+sudoku.mostrar()
+
+
+sudoku.play(7, 1, 1, definitivo=True)      
+sudoku.play(1, 1, 2, definitivo=False)     
+
+sudoku.mostrar()
+sudoku.plot()
+
+if sudoku.verificar_terminado():
+    print("¡Sudoku resuelto!")
+
+
+# ----------
